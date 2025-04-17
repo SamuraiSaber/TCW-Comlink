@@ -1,11 +1,10 @@
-// Simulate receiving a message from a character
 function receiveMessage() {
   var messages = [
     "From Anakin Skywalker",
-    "From Anakin Skywalker",
-    "From Anakin Skywalker.",
-    "From Anakin Skywalker.",
-    "From Anakin Skywalker"
+    "From Obi-Wan Kenobi",
+    "Excute Order 66",
+    "Excute Order 66",
+    "From Obi-Wan Kenobi"
   ];
 
   // Display the initial "Receiving message..."
@@ -44,12 +43,12 @@ function receiveMessage() {
 function playAudio(message) {
 let url = "";
 
-if (message === "This is Anakin Skywalker. Mission complete.") {
+if (message === "From Anakin Skywalker") {
   url = "https://www.youtube.com/watch?v=XKZGOfZV6w8"; // ← 実際のURLに変更
-} else if (message === "Clone troopers, assemble!") {
-  url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
-} else if (message === "Received information from Kamino.") {
-  url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
+} else if (message === "From Obi-Wan Kenobi") {
+  url = "https://www.youtube.com/watch?v=bh5g6bb_3Ng";
+} else if (message === "Excute Order 66") {
+  url = "https://www.youtube.com/watch?v=lcTILMVZZ-A";
 } else if (message === "Orders from Darth Sidious received.") {
   url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
 } else if (message === "I sense the dark side of the Force...") {
@@ -59,7 +58,7 @@ if (message === "This is Anakin Skywalker. Mission complete.") {
 }
 
 // YouTubeリンクを新しいタブで開く
-window.location.href = 'https://www.youtube.com/watch?v=XKZGOfZV6w8';
+window.location.href = url;
 }
 
 
