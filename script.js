@@ -59,7 +59,7 @@ if (message === "This is Anakin Skywalker. Mission complete.") {
 }
 
 // YouTubeリンクを新しいタブで開く
-window.location.href = 'url';
+window.location.href = 'https://www.youtube.com/watch?v=XKZGOfZV6w8';
 }
 
 
