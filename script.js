@@ -8,7 +8,7 @@ function receiveMessage() {
     "From Obi-Wan Kenobi"
     */
     "This is the way.",
-    "from Anzellans"
+    "from Anzellans",
   ];
 
   // Display the initial "Receiving message..."
