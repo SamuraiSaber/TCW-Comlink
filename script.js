@@ -1,10 +1,13 @@
 function receiveMessage() {
   var messages = [
+    /*
     "From Anakin Skywalker",
     "From Obi-Wan Kenobi",
     "Excute Order 66",
     "Excute Order 66",
     "From Obi-Wan Kenobi"
+    */
+    "This is the way."
   ];
 
   // Display the initial "Receiving message..."
@@ -49,8 +52,10 @@ if (message === "From Anakin Skywalker") {
   url = "https://www.youtube.com/watch?v=bh5g6bb_3Ng";
 } else if (message === "Excute Order 66") {
   url = "https://www.youtube.com/watch?v=lcTILMVZZ-A";
-} else if (message === "Orders from Darth Sidious received.") {
-  url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
+} else if (message === "This is the way.") {
+  url = "https://youtu.be/wdzwkGa62Fw?si=vXs0ZvsdyZ6Pt-2l";
+} else if (message === "from Anzellans") {
+  url = "https://youtu.be/zL0zv-yL5VU?si=ApKrbkAX_gPJtnh8";
 } else if (message === "I sense the dark side of the Force...") {
   url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
 } else {
