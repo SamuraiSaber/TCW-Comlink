@@ -7,7 +7,7 @@ function receiveMessage() {
     "Excute Order 66",
     "From Obi-Wan Kenobi"
     */
-    "This is the way."
+    "This is the way.",
     "from Anzellans"
   ];
 
