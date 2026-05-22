@@ -10,7 +10,9 @@ function receiveMessage() {
     "This is the way.",
     "This is the way.",
     "from Anzellans",
-    "from Anzellans"
+    "from Anzellans",
+    "Grogu is calling you!",
+    "Grogu is calling you!",
   ];
 
   // Display the initial "Receiving message..."
@@ -59,8 +61,8 @@ if (message === "From Anakin Skywalker") {
   url = "https://youtu.be/wdzwkGa62Fw?si=vXs0ZvsdyZ6Pt-2l";
 } else if (message === "from Anzellans") {
   url = "https://youtu.be/zL0zv-yL5VU?si=ApKrbkAX_gPJtnh8";
-} else if (message === "I sense the dark side of the Force...") {
-  url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
+} else if (message === "Grogu is calling you!") {
+  url = "https://youtube.com/shorts/dF-fQJEbxuQ?si=uK_yzNenkBiqCmh";
 } else {
   url = "https://www.youtube.com/watch?v=XKZGOfZV6w8";
 }
